@@ -1,0 +1,37 @@
+Ejercicio 1
+1. Generalización simbólica: reglas escritas del lenguaje
+
+En el contexto del paradigma orientado a objetos basado en prototipos, las reglas escritas de JavaScript están definidas por su sintaxis, estructuras y comportamiento del motor del lenguaje (ECMAScript).
+Estas reglas indican cómo deben crearse y comportarse los objetos, y cómo se establece la herencia sin clases formales.
+Algunas de las principales generalizaciones simbólicas son:
+
+Todo en JavaScript es un objeto o puede comportarse como tal.
+
+Los objetos pueden crearse mediante objetos literales, funciones constructoras o la palabra clave class (que es solo azúcar sintáctico sobre prototipos).
+
+La herencia se logra a través de la cadena de prototipos (prototype chain), no mediante clases tradicionales.
+
+Cada objeto tiene una referencia interna a su prototipo (propiedad [[Prototype]] o __proto__).
+
+Los métodos y propiedades pueden definirse directamente en el objeto o en su prototype, lo que permite compartir comportamiento.
+
+El uso de this hace referencia al objeto que ejecuta la función.
+
+Estas reglas escritas definen cómo se representan y manipulan los objetos, cómo se realiza la herencia y cómo se organiza el código bajo el paradigma OOP en JavaScript.
+
+2. Creencias de los profesionales: características valoradas del lenguaje
+
+Los profesionales consideran que JavaScript tiene ventajas particulares dentro del paradigma OOP debido a su flexibilidad y dinamismo.
+Algunas creencias comunes son:
+
+La herencia prototípica es más simple y natural que la basada en clases, porque permite crear objetos directamente a partir de otros sin estructuras rígidas.
+
+La dinamicidad del lenguaje permite agregar o modificar propiedades y métodos en tiempo de ejecución, lo que otorga gran adaptabilidad.
+
+El hecho de que las funciones sean ciudadanos de primera clase (pueden pasarse como argumentos, devolverse o almacenarse) potencia la reutilización y composición de comportamientos.
+
+La no necesidad de clases estrictas facilita el modelado rápido de objetos y la creación de estructuras más livianas.
+
+El enfoque basado en prototipos y closures permite combinar estilos de programación (funcional y orientado a objetos), lo cual es considerado una fortaleza.
+
+En síntesis, los profesionales valoran que JavaScript, al basarse en prototipos, ofrece mayor flexibilidad, dinamismo y expresividad que otros lenguajes orientados a objetos más rígidos, como Java o C++.

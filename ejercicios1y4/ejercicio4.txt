@@ -1,0 +1,7 @@
+Para los Ejercicios 2 y 3 utilicé objetos para representar cada tarea, con propiedades como id, titulo, descripcion, estado, dificultad, vencimiento y creacion, y métodos como mostrarDetalles y editarTarea para manejar su comportamiento.
+
+Apliqué encapsulamiento agrupando datos y métodos en cada objeto, modularidad separando funciones como agregarTarea, buscarTarea y listarTareas, y abstracción mostrando solo lo necesario de cada tarea.
+
+No implementé herencia ni polimorfismo porque todas las tareas tienen la misma estructura y comportamiento. El uso de objetos como referencias permitió que los cambios en una tarea se reflejen automáticamente en toda la lista.
+
+En resumen, usé objetos, métodos, encapsulamiento, modularidad y abstracción; la herencia y el polimorfismo no fueron necesarios.
